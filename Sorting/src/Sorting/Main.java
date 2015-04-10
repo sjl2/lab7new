@@ -18,12 +18,19 @@ public class Main {
 		for (int i: unsortedArray) {
 				System.out.print(i + " ");
 		}
-		System.out.println();
 		
+		System.out.println();
+		int x = 3;
+		int y = 13; 
+
 		System.out.println("Sorted Array:");
 		//TODO: sort the array and print out its contents
 		
-		
+		int[] sortedArray = BubbleSort.bubbleSort(unsortedArray); 
+		for (int i: sortedArray) {
+      		System.out.print(i + " ");
+		}
+		System.out.println();
 	}
 
 }
